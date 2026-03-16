@@ -1,0 +1,16 @@
+<section id="panel-registrar-pasante" class="main-centered-section">
+  <h3>Registrar Pasante (y asignar automáticamente)</h3>
+  <form id="form-registrar-pasante">
+    <input type="text" id="rp-nombre" placeholder="Nombre completo" required>
+    <input type="email" id="rp-email" placeholder="Correo" required>
+    <input type="password" id="rp-password" placeholder="Contraseña" required>
+    <input type="number" id="rp-nota" placeholder="Nota (0-20)" min="0" max="20">
+    <input type="number" id="rp-horas" placeholder="Horas totales requeridas" min="0">
+    <input type="text" id="rp-ubicacion-text" placeholder="Ubicación (ciudad o dirección)">
+    <!-- opcionales lat/lng si tienes -->
+    <input type="number" step="0.000001" id="rp-lat" placeholder="Lat (opcional)">
+    <input type="number" step="0.000001" id="rp-lng" placeholder="Lng (opcional)">
+    <button type="submit">Registrar y Asignar</button>
+  </form>
+  <div id="rp-result" style="margin-top:1em;"></div>
+</section>

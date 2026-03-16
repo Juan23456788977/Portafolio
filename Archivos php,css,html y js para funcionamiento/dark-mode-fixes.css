@@ -1,0 +1,96 @@
+/* dark-mode-fixes.css (mejor legibilidad para modo oscuro)
+   Cargar este archivo DESPUÉS de styles.css */
+
+/* Variables más suaves y texto legible */
+:root {
+  --dark-bg: #2f3440;         /* fondo oscuro, no negro absoluto */
+  --panel-bg: rgba(255,255,255,0.03);
+  --muted-text: #cfe7ff;
+  --primary-accent: #9fc9ff;
+  --secondary-accent: #ffd88a;
+  --input-bg: rgba(255,255,255,0.04);
+  --card-shadow: 0 8px 28px rgba(5,10,20,0.35);
+}
+
+html[data-theme="dark"] body,
+[data-theme="dark"] body {
+  background: var(--dark-bg) !important;
+  color: var(--muted-text) !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tarjetas y paneles: fondo ligeramente más claro que el body */
+[data-theme="dark"] .card,
+[data-theme="dark"] .panel,
+[data-theme="dark"] .main-centered-section,
+[data-theme="dark"] .home-hero,
+[data-theme="dark"] .role-card {
+  background: var(--panel-bg) !important;
+  color: var(--muted-text) !important;
+  border: 1px solid rgba(255,255,255,0.04);
+  box-shadow: var(--card-shadow);
+}
+
+/* Inputs y selects: fondos menos oscuros para mejor lectura */
+[data-theme="dark"] input,
+[data-theme="dark"] textarea,
+[data-theme="dark"] select {
+  background: var(--input-bg) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  color: var(--muted-text) !important;
+}
+
+/* Placeholders */
+[data-theme="dark"] ::placeholder { color: rgba(207,231,255,0.6) !important; }
+
+/* Botones: colores con buen contraste */
+[data-theme="dark"] button,
+[data-theme="dark"] .btn-primary {
+  background: linear-gradient(90deg, var(--secondary-accent), var(--primary-accent));
+  color: #0b2030 !important;
+  border: none;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.22);
+}
+
+/* Tablas */
+[data-theme="dark"] table {
+  color: var(--muted-text);
+  border-collapse: collapse;
+}
+[data-theme="dark"] table thead th {
+  background: rgba(255,255,255,0.02);
+  color: var(--primary-accent);
+  font-weight: 700;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+[data-theme="dark"] table tbody tr td {
+  padding: 10px 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+
+/* Enlaces */
+[data-theme="dark"] a { color: var(--secondary-accent) !important; }
+
+/* Toasts y alertas */
+[data-theme="dark"] .toast, [data-theme="dark"] .alert {
+  background: rgba(255,255,255,0.04);
+  color: var(--muted-text);
+  border: 1px solid rgba(255,255,255,0.04);
+}
+
+/* Focus accesible */
+[data-theme="dark"] input:focus, [data-theme="dark"] button:focus {
+  outline: 2px solid rgba(159,201,255,0.14);
+  box-shadow: 0 6px 18px rgba(31,90,150,0.08);
+}
+
+/* Footer y header */
+[data-theme="dark"] header, [data-theme="dark"] footer {
+  background: rgba(12,18,28,0.6);
+  color: var(--muted-text);
+}
+
+/* Correcciones puntuales para logos/avatars */
+[data-theme="dark"] img.logo, [data-theme="dark"] .avatar img {
+  filter: none;
+}

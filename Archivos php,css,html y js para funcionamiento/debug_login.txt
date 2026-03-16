@@ -1,0 +1,2512 @@
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 9
+            [nombre] => hola
+            [email] => cortaesta2@gmail.com
+            [password] => $2y$10$bC1cc31uA/ATS3MX7X/paeGjBFCuEu6JCVwncicPTRQ54oFTI/ikS
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => moderador
+    [2] => 
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 9
+            [nombre] => hola
+            [email] => cortaesta2@gmail.com
+            [password] => $2y$10$bC1cc31uA/ATS3MX7X/paeGjBFCuEu6JCVwncicPTRQ54oFTI/ikS
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => juan@demo.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => juan@demo.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => juan@demo.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => juan@demo.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => juan@demo.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => juan@demo.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => supervisor
+    [2] => Array
+        (
+            [id] => 55
+            [nombre] => Admin Demo
+            [email] => admin1@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => supervisor
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 9
+            [nombre] => hola
+            [email] => cortaesta2@gmail.com
+            [password] => $2y$10$bC1cc31uA/ATS3MX7X/paeGjBFCuEu6JCVwncicPTRQ54oFTI/ikS
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 9
+            [nombre] => hola
+            [email] => cortaesta2@gmail.com
+            [password] => $2y$10$bC1cc31uA/ATS3MX7X/paeGjBFCuEu6JCVwncicPTRQ54oFTI/ikS
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => moderador
+    [2] => 
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => pasante
+    [2] => 
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => supervisor
+    [2] => Array
+        (
+            [id] => 55
+            [nombre] => Admin Demo
+            [email] => admin1@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => supervisor
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => pasante
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 9
+            [nombre] => hola
+            [email] => cortaesta2@gmail.com
+            [password] => $2y$10$bC1cc31uA/ATS3MX7X/paeGjBFCuEu6JCVwncicPTRQ54oFTI/ikS
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => supervisor
+    [2] => Array
+        (
+            [id] => 55
+            [nombre] => Admin Demo
+            [email] => admin1@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => supervisor
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => moderador
+    [2] => 
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => admin@empresa
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => supervisor
+    [2] => Array
+        (
+            [id] => 55
+            [nombre] => Admin Demo
+            [email] => admin1@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => supervisor
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => pasante
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 9
+            [nombre] => hola
+            [email] => cortaesta2@gmail.com
+            [password] => $2y$10$bC1cc31uA/ATS3MX7X/paeGjBFCuEu6JCVwncicPTRQ54oFTI/ikS
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => supervisor
+    [2] => Array
+        (
+            [id] => 55
+            [nombre] => Admin Demo
+            [email] => admin1@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => supervisor
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 9
+            [nombre] => hola
+            [email] => cortaesta2@gmail.com
+            [password] => $2y$10$bC1cc31uA/ATS3MX7X/paeGjBFCuEu6JCVwncicPTRQ54oFTI/ikS
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 9
+            [nombre] => hola
+            [email] => cortaesta2@gmail.com
+            [password] => $2y$10$bC1cc31uA/ATS3MX7X/paeGjBFCuEu6JCVwncicPTRQ54oFTI/ikS
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => pasante
+    [2] => 
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => moderador
+    [2] => 
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => supervisor
+    [2] => Array
+        (
+            [id] => 55
+            [nombre] => Admin Demo
+            [email] => admin1@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => supervisor
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => moderador
+    [2] => 
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => supervisor
+    [2] => Array
+        (
+            [id] => 55
+            [nombre] => Admin Demo
+            [email] => admin1@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => supervisor
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => supervisor
+    [2] => Array
+        (
+            [id] => 55
+            [nombre] => Admin Demo
+            [email] => admin1@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => supervisor
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 9
+            [nombre] => hola
+            [email] => cortaesta2@gmail.com
+            [password] => $2y$10$bC1cc31uA/ATS3MX7X/paeGjBFCuEu6JCVwncicPTRQ54oFTI/ikS
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 9
+            [nombre] => hola
+            [email] => cortaesta2@gmail.com
+            [password] => $2y$10$bC1cc31uA/ATS3MX7X/paeGjBFCuEu6JCVwncicPTRQ54oFTI/ikS
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => supervisor
+    [2] => Array
+        (
+            [id] => 55
+            [nombre] => Admin Demo
+            [email] => admin1@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => supervisor
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortezurreaj@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 56
+            [nombre] => JUan alberto
+            [email] => cortezurreaj@gmail.com
+            [password] => $2y$10$HzuKbXOx4m5flNbHkXPG1ex5ErZV6zDc6GfzN6Cygthlkb0JfDBuq
+            [role] => pasante
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => edwin1234@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 57
+            [nombre] => edwin perez
+            [email] => edwin1234@gmail.com
+            [password] => $2y$10$zXrnzcz98a1NamtjAQ7xoOm7/0gWRb4YdW/bGhpgz6iLeZk1drx.u
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => edwin1234@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 57
+            [nombre] => edwin perez
+            [email] => edwin1234@gmail.com
+            [password] => $2y$10$zXrnzcz98a1NamtjAQ7xoOm7/0gWRb4YdW/bGhpgz6iLeZk1drx.u
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => edwin1234@gmail.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => edwin1234@gmail.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => edwin1234@gmail.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => supervisor
+    [2] => Array
+        (
+            [id] => 55
+            [nombre] => Admin Demo
+            [email] => admin1@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => supervisor
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => admin
+    [2] => 
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => moderador
+    [2] => 
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => pasante
+    [2] => 
+)
+Array
+(
+    [0] => admin1@empresa.com
+    [1] => supervisor
+    [2] => Array
+        (
+            [id] => 55
+            [nombre] => Admin Demo
+            [email] => admin1@empresa.com
+            [password] => $2y$10$56QToIZ58jy7JBy8tgnJeu3UVa1uSdZRgiOqiX8O0VJylt/2nFJoa
+            [role] => supervisor
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => hi@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => hola
+            [email] => hi@gmail.com
+            [password] => $2y$10$E3BEN6lFq/KuELZfAuE.C.Cue7/ZZAKpUk7BM/mEuV2nue7SiiUm.
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => kevin@gmail.com
+    [1] => pasante
+    [2] => Array
+        (
+            [id] => 10
+            [nombre] => Kevin
+            [email] => kevin@gmail.com
+            [password] => $2y$10$nY5a9S3aYtFhJGDfhvuCY.blwj3g6Q.1YI46LU3Yai8Dl3VmX04Du
+            [role] => pasante
+            [nota] => 18
+            [horas_totales] => 460
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => supervisor
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => pasante
+    [2] => 
+)
+Array
+(
+    [0] => cortaesta2@gmail.com
+    [1] => moderador
+    [2] => Array
+        (
+            [id] => 9
+            [nombre] => hola
+            [email] => cortaesta2@gmail.com
+            [password] => $2y$10$bC1cc31uA/ATS3MX7X/paeGjBFCuEu6JCVwncicPTRQ54oFTI/ikS
+            [role] => moderador
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+            [empresa_id] => 
+            [supervisor_id] => 
+            [lat] => 
+            [lng] => 
+            [foto] => 
+        )
+
+)
+Array
+(
+    [0] => admin@empresa.com
+    [1] => admin
+    [2] => Array
+        (
+            [id] => 7
+            [nombre] => Admin Demo
+            [email] => admin@empresa.com
+            [password] => $2y$10$3jKjT0YIOmuSVQ14U/GdQOI5j6NFtTPgUrXfxh6SZo0RnGYQtg61G
+            [role] => admin
+            [nota] => 
+            [horas_totales] => 
+            [horas_cumplidas] => 0
+            [asignado_empresa] => 
+            [ubicacion_empresa] => 
+            [comentarios] => 
+            [empresa_id] => 
+            [supervisor_id] => 
+            [lat] => 
+            [lng] => 
+            [foto] => 
+        )
+
+)

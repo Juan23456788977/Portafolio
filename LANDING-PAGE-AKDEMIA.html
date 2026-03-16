@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Solicita Información - Akdemia Edge</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap" rel="stylesheet">
+  <style>
+    body { background: linear-gradient(135deg,#f0f4f8 0%,#d9e2ec 100%); font-family:'Montserrat',Arial,sans-serif;
+           display:flex; align-items:center; justify-content:center; min-height:100vh; margin:0; padding:20px; box-sizing:border-box;}
+    .container { background:#fff; border-radius:16px; box-shadow:0 20px 40px rgba(8,52,124,0.08); padding:3rem 2.5rem; width:100%; max-width:500px; box-sizing:border-box; position:relative;}
+    .logo-container{ text-align:center; margin-bottom:25px; } .logo{ max-width:180px; height:auto; }
+    h2{ color:#08347c; margin-bottom:10px; font-size:1.75rem; font-weight:600; text-align:center; }
+    p{ color:#627d98; margin-bottom:30px; font-size:0.95rem; text-align:center; line-height:1.5; }
+    label{ display:block; font-weight:600; margin-bottom:8px; color:#102a43; font-size:0.9rem; }
+    input, select { width:100%; padding:14px 16px; margin-bottom:22px; border:1px solid #d9e2ec; border-radius:8px; font-size:0.95rem; background:#f8fbff; color:#334e68; transition:all .3s; box-sizing:border-box; }
+    input:focus, select:focus { border-color:#08347c; outline:none; background:#fff; box-shadow:0 0 0 4px rgba(8,52,124,0.1); }
+    button{ width:100%; background:linear-gradient(135deg,#08347c 0%,#0a46a8 100%); color:#fff; border:none; border-radius:8px; padding:16px 0; font-size:1.1rem; font-weight:600; cursor:pointer; transition:all .3s; box-shadow:0 4px 15px rgba(8,52,124,0.2); margin-top:10px;}
+    button:hover{ transform:translateY(-2px); box-shadow:0 8px 25px rgba(8,52,124,0.3); } button:disabled{ background:#ccc; cursor:not-allowed; }
+    .powered{ text-align:center; color:#9fb3c8; font-size:0.85rem; margin-top:30px; }
+    #mensaje_exito{ display:none; text-align:center; color:#08347c; font-weight:600; font-size:1.2rem; padding:40px 0; line-height:1.6; }
+    #mensaje_error{ display:none; text-align:center; color:#e01f1f; font-weight:600; font-size:1rem; margin:20px 0; line-height:1.5; white-space:pre-wrap; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo-container">
+      <img src="https://i.ibb.co/FqC6YBL9/logo.png" alt="Akdemia Logo" class="logo">
+    </div>
+
+    <div id="cabecera_form">
+      <h2>Solicita Información</h2>
+      <p>Por favor, completa los datos del colegio y un contacto responsable. En breve nos comunicaremos.</p>
+    </div>
+
+    <div id="mensaje_exito">
+      🎉 ¡Gracias por tu interés!<br><br>Hemos recibido tu solicitud correctamente. Nuestro equipo se comunicará contigo muy pronto.
+    </div>
+    <div id="mensaje_error"></div>
+
+    <form id="mi_formulario">
+      <label for="colegio">Nombre del Colegio</label>
+      <input type="text" id="colegio" name="colegio" required>
+
+      <label for="ubicacion">Ubicación</label>
+      <input type="text" id="ubicacion" name="ubicacion" placeholder="Ciudad, Estado o Región" required>
+
+      <label for="rango_alumnos">Cantidad de alumnos</label>
+      <select id="rango_alumnos" name="rango_alumnos" required>
+        <option value="">Selecciona un rango</option>
+        <option value="menos_90">Menos de 90</option>
+        <option value="91_300">91 - 300</option>
+        <option value="301_600">301 - 600</option>
+        <option value="601_900">601 - 900</option>
+        <option value="mas_900">Más de 900</option>
+      </select>
+
+      <label for="mayor_reto">¿Cuál es tu mayor reto hoy?</label>
+      <select id="mayor_reto" name="mayor_reto" required>
+        <option value="">Selecciona tu principal desafío</option>
+        <option value="Alta morosidad">Alta morosidad</option>
+        <option value="Procesos de facturación manuales">Procesos de facturación manuales</option>
+        <option value="Falta de reportes financieros claros">Falta de reportes financieros claros</option>
+        <option value="Facturación digital">Facturación digital</option>
+        <option value="Control y seguimiento de los pagos">Control y seguimiento de los pagos</option>
+      </select>
+
+      <label for="nombre">Nombre y Apellido</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo electrónico</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="telefono">Teléfono celular</label>
+      <input type="tel" id="telefono" name="telefono" pattern="[0-9\s\-\+\(\)]*" placeholder="Ej: +58 412 1234567" required>
+
+      <label for="cargo">Cargo en el Colegio</label>
+      <input type="text" id="cargo" name="cargo" required>
+
+      <button type="submit" id="btn_enviar">Enviar Solicitud</button>
+    </form>
+
+    <div class="powered">Powered by <b>Akdemia</b></div>
+  </div>
+
+  <script>
+    const form = document.getElementById('mi_formulario');
+    const btnEnviar = document.getElementById('btn_enviar');
+    const mensajeExito = document.getElementById('mensaje_exito');
+    const mensajeError = document.getElementById('mensaje_error');
+    const cabeceraForm = document.getElementById('cabecera_form');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      btnEnviar.disabled = true;
+      btnEnviar.innerText = 'Enviando...';
+      mensajeError.style.display = 'none';
+      mensajeError.innerText = '';
+
+      const formObj = {
+        colegio: document.getElementById('colegio').value || '',
+        ubicacion: document.getElementById('ubicacion').value || '',
+        rango_alumnos: document.getElementById('rango_alumnos').value || '',
+        mayor_reto: document.getElementById('mayor_reto').value || '',
+        nombre: document.getElementById('nombre').value || '',
+        correo: document.getElementById('correo').value || '',
+        telefono: document.getElementById('telefono').value || '',
+        cargo: document.getElementById('cargo').value || ''
+      };
+
+      google.script.run
+        .withSuccessHandler(function (res) {
+          if (res && res.status === 'success') {
+            form.style.display = 'none';
+            cabeceraForm.style.display = 'none';
+            mensajeExito.style.display = 'block';
+          } else {
+            btnEnviar.disabled = false;
+            btnEnviar.innerText = 'Enviar Solicitud';
+            const msg = (res && res.message) ? res.message : 'Ocurrió un error al procesar tu solicitud.';
+            mensajeError.innerText = msg;
+            mensajeError.style.display = 'block';
+          }
+        })
+        .withFailureHandler(function (err) {
+          console.error('Error server:', err);
+          btnEnviar.disabled = false;
+          btnEnviar.innerText = 'Enviar Solicitud';
+          mensajeError.innerText = 'Error del servidor. Por favor intenta más tarde.\n' + (err && err.message ? err.message : '');
+          mensajeError.style.display = 'block';
+        })
+        .processForm(formObj);
+    });
+  </script>
+</body>
+</html>

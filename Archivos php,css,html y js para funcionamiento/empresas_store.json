@@ -1,0 +1,10 @@
+{
+    "empresas": [
+        {
+            "id": "1758812025771",
+            "nombre": "Open P Tech",
+            "importancia": "ALTA",
+            "ubicacion": "Avenida rio de janeiro"
+        }
+    ]
+}

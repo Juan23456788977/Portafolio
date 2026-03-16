@@ -1,0 +1,40 @@
+// Carrusel fondo
+let idx = 0;
+const imgs = document.querySelectorAll('.carousel-img');
+setInterval(() => {
+  imgs.forEach((img, i) => img.classList.toggle('active', i === idx));
+  idx = (idx + 1) % imgs.length;
+}, 5400);
+// Modo claro/oscuro
+const themeBtn = document.getElementById('theme-toggle-btn');
+themeBtn.onclick = () => {
+  document.body.classList.toggle('light-mode');
+  themeBtn.textContent = document.body.classList.contains('light-mode') ? "🌞" : "🌙";
+};
+// Toastify
+function showToast(msg, ok=false) {
+  Toastify({
+    text: msg,
+    duration: 3400,
+    gravity: "bottom",
+    position: "center",
+    backgroundColor: ok ? "#232837" : "#c00",
+    stopOnFocus: true,
+    close: true
+  }).showToast();
+}
+// Validación fuerza contraseña
+window.checkStrength = function(input) {
+  let val = input.value, msg = "";
+  if(val.length<8) msg="Mínimo 8 caracteres";
+  else if(!/[A-Z]/.test(val)) msg="Debe tener una mayúscula";
+  else if(!/\d/.test(val)) msg="Debe tener un número";
+  else msg="¡Fuerte!";
+  const el = document.getElementById('pw-strength');
+  if(el) {
+    el.textContent = msg;
+    el.className = 'pw-strength ' + (msg==='¡Fuerte!'?'success':'danger');
+  }
+};
+
+/* ------ Pega aquí el resto de tu JS grande (menú, formularios, etc) ------ */

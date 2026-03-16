@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pasant-Connect — Gestión de Pasantías Profesionales</title>
+    <link rel="icon" href="gestionpasantias_img_logo_Version1.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="panel_styles.css">
+    <link rel="preconnect" href="dark-mode-fixes.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-pro">
+            <div class="logo-pro">
+                <img src="gestionpasantias_img_logo_Version1.svg" alt="Logo" />
+                <span>Pasant-sigueConnect</span>
+            </div>
+            <button class="hamburger" id="hamburger-menu" aria-label="Abrir menú">&#9776;</button>
+            <ul id="main-menu">
+                <li><a class="nav-link active" data-section="home" href="#">Inicio</a></li>
+                <li><a class="nav-link" data-section="servicios" href="#">Servicios</a></li>
+                <li><a class="nav-link" data-section="testimonios" href="#">Testimonios</a></li>
+                <li><a class="nav-link" data-section="faq" href="#">FAQ</a></li>
+                <li><a class="nav-link" data-section="contacto" href="#">Contacto</a></li>
+                <li id="menu-login"><a class="nav-link" data-section="login" href="#">Login</a></li>
+                <li id="menu-panel"><a class="nav-link" data-section="panel" href="#">Panel</a></li>
+                <li id="menu-logout"><a class="nav-link" id="logout-link" href="#">Salir</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Punto de montaje de la SPA -->
+        <div id="content"></div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://wa.me/5491123456789" target="_blank" title="WhatsApp">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" class="footer-icon">
+                </a>
+                <a href="https://instagram.com/tuempresa" target="_blank" title="Instagram">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" class="footer-icon">
+                </a>
+                <a href="mailto:info@tuempresa.com" title="Correo">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/maildotru.svg" alt="Correo" class="footer-icon">
+                </a>
+            </div>
+            <div class="footer-info">
+                <div><strong>Dirección:</strong> Av. Siempre Viva 123, Ciudad, País</div>
+                <div><strong>Teléfono:</strong> +54 9 11 2345-6789</div>
+                <div><strong>Email:</strong> <a href="mailto:info@tuempresa.com">info@tuempresa.com</a></div>
+                <div><strong>Horario de atención:</strong> Lunes a Viernes, 9:00 a 18:00</div>
+                <div>
+                    <a href="/politica-privacidad.html" style="color:var(--primary);text-decoration:underline;">Política de Privacidad</a> | 
+                    <a href="/terminos.html" style="color:var(--primary);text-decoration:underline;">Términos y Condiciones</a>
+                </div>
+                <div style="margin-top:.7em;">© 2025 Gestión de Pasantías</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Pequeño script para el menú hamburguesa en móviles (seguro: comprueba elementos)
+        document.addEventListener('DOMContentLoaded', function () {
+            var menu = document.getElementById('main-menu');
+            var burger = document.getElementById('hamburger-menu');
+            if (!menu || !burger) return;
+            burger.onclick = function () {
+                menu.classList.toggle('active');
+                burger.setAttribute('aria-label', menu.classList.contains('active') ? "Cerrar menú" : "Abrir menú");
+            };
+            document.addEventListener('click', function(e){
+                if(window.innerWidth <= 900 && menu.classList.contains('active')) {
+                    if(!menu.contains(e.target) && e.target !== burger){
+                        menu.classList.remove('active');
+                        burger.setAttribute('aria-label', "Abrir menú");
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+    <script src="Main.js"></script>
+    <script src="moderator_panel.js"></script>
+    <script src="admin_users_ui.js"></script>
+</body>
+</html>
