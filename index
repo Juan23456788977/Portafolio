@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Reserva tu lugar | Webinar Akdemia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* =========================================
+      * Variables Globales y Paleta Akdemia
+      * Definidas e implementadas por Juan Cortez (JC)
+      ========================================= 
+    */
+    :root {
+      --primary: #1A6899; 
+      --primary-hover: #13496B;
+      --accent-yellow: #FAC013;
+      --bg: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+      --text-dark: #0f172a;
+      --text-muted: #64748b;
+      --input-border: #cbd5e1;
+      --input-bg: #f8fafc;
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg); font-family: 'Poppins', sans-serif;
+      display: flex; align-items: center; justify-content: center;
+      min-height: 100vh; padding: 20px; color: var(--text-dark); -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      background: #ffffff; border-radius: 24px; box-shadow: 0 25px 50px -12px rgba(26, 104, 153, 0.15);
+      padding: 3.5rem 3rem; width: 100%; max-width: 540px; position: relative; overflow: hidden;
+      animation: formEntrance 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .container::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 6px;
+      background: linear-gradient(90deg, #1A6899, #50A9E1);
+    }
+    .logo { max-width: 150px; display: block; margin: 0 auto 30px; }
+    h2 { color: var(--primary); text-align: center; font-size: 1.85rem; font-weight: 700; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .subtitle { color: var(--text-muted); text-align: center; font-size: 1rem; margin-bottom: 35px; line-height: 1.6; }
+    
+    /* Configuración de delays para animación en cascada - Diseñado por JC */
+    .form-group { margin-bottom: 20px; opacity: 0; animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    .form-group:nth-child(1) { animation-delay: 0.1s; }
+    .form-group:nth-child(2) { animation-delay: 0.15s; }
+    .form-group:nth-child(3) { animation-delay: 0.2s; }
+    .form-group:nth-child(4) { animation-delay: 0.25s; }
+    .form-group:nth-child(5) { animation-delay: 0.3s; }
+    .form-group:nth-child(6) { animation-delay: 0.35s; }
+    .form-group:nth-child(7) { animation-delay: 0.4s; }
+    
+    label { display: block; font-weight: 600; font-size: 0.88rem; margin-bottom: 8px; color: #334155; }
+    input, select {
+      width: 100%; padding: 14px 18px; font-family: 'Poppins', sans-serif;
+      border: 1.5px solid var(--input-border); border-radius: 12px;
+      font-size: 1rem; background: var(--input-bg); color: var(--text-dark);
+      transition: var(--transition); appearance: none;
+    }
+    select {
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat; background-position: right 1rem center; background-size: 1em;
+    }
+    input:focus, select:focus { border-color: var(--primary); background: #fff; outline: none; box-shadow: 0 0 0 4px rgba(26,104,153,0.1); }
+    button[type="submit"] {
+      width: 100%; background: var(--primary); color: #fff; border: none; border-radius: 12px; padding: 18px;
+      font-family: 'Poppins', sans-serif; font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: var(--transition);
+      margin-top: 15px; opacity: 0; animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;
+      display: flex; justify-content: center; align-items: center; gap: 8px;
+    }
+    button[type="submit"]:hover { background: var(--primary-hover); transform: translateY(-3px); box-shadow: 0 10px 25px rgba(26,104,153,0.3); }
+    button[type="submit"]:active { transform: translateY(0); }
+    .ig-alert { display: none; background: #fffdf5; border: 1px solid var(--accent-yellow); border-radius: 12px; padding: 18px; margin-bottom: 30px; animation: dropDown 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    .ig-alert h4 { color: #85660a; font-size: 0.95rem; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+    .ig-alert p { color: #a17c0c; font-size: 0.85rem; line-height: 1.5; }
+    .ig-btn { background: var(--accent-yellow); color: #423305; border: none; padding: 10px 16px; font-family: 'Poppins', sans-serif; border-radius: 8px; font-size: 0.85rem; font-weight: 600; margin-top: 12px; cursor: pointer; transition: var(--transition); width: 100%; }
+    .ig-btn:hover { background: #e0ac10; }
+    #mensaje_exito, #mensaje_error { display: none; text-align: center; padding: 25px; border-radius: 12px; animation: formEntrance 0.5s ease forwards; }
+    #mensaje_exito { background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; }
+    #mensaje_error { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
+    .exito-icon { font-size: 3rem; margin-bottom: 15px; display: block; }
+    
+    /* Etiqueta de crédito visual opcional */
+    .powered { text-align: center; color: #94a3b8; font-size: 0.85rem; margin-top: 30px; }
+    
+    /* Media queries para 100% responsividad - Ajustado por JC */
+    @media (max-width: 600px) {
+      body { padding: 15px; }
+      .container { padding: 2.5rem 1.5rem; border-radius: 20px; }
+      h2 { font-size: 1.6rem; }
+      .subtitle { font-size: 0.9rem; margin-bottom: 25px; }
+      input, select { padding: 12px 14px; font-size: 16px; }
+      button[type="submit"] { padding: 16px; font-size: 1.05rem; }
+    }
+    @keyframes formEntrance { from { opacity: 0; transform: translateY(20px) scale(0.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+    @keyframes slideUp { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes dropDown { from { opacity: 0; transform: translateY(-15px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.ibb.co/FqC6YBL9/logo.png" alt="Akdemia Logo" class="logo">
+    <div id="ig_banner" class="ig-alert">
+      <h4>⚠️ Navegador Restringido (Instagram)</h4>
+      <p>Para garantizar que puedas descargar tu material y acceder al evento, toca los tres puntos <b>(...)</b> arriba a la derecha de tu pantalla y elige <b>"Abrir en el navegador"</b> (Safari o Chrome).</p>
+      <button type="button" class="ig-btn" id="btn_copiar">📋 Copiar enlace de esta página</button>
+    </div>
+    <div id="cabecera_form">
+      <h2>Webinar: Módulo de Admisión</h2>
+      <p class="subtitle">Descubre cómo digitalizar y acelerar las inscripciones de tu institución escolar.</p>
+    </div>
+    <div id="mensaje_exito">
+      <span class="exito-icon">✅</span>
+      <h3 style="margin-bottom: 10px;">¡Tu lugar está reservado!</h3>
+      <p style="font-size: 0.95rem; line-height: 1.5;">Hemos enviado a tu correo electrónico la confirmación oficial junto con el enlace de acceso directo al Google Meet.</p>
+    </div>
+    <div id="mensaje_error"></div>
+    <form id="mi_formulario">
+      <div class="form-group"><label>Nombre del Colegio</label><input type="text" id="colegio" required placeholder="Ej. Colegio San Ignacio"></div>
+      <div class="form-group"><label>Ubicación</label><input type="text" id="ubicacion" required placeholder="Ciudad, Estado o País"></div>
+      <div class="form-group"><label>Cantidad de alumnos matriculados</label>
+        <select id="rango_alumnos" required>
+          <option value="">Selecciona el volumen de tu colegio...</option>
+          <option value="menos_90">Menos de 90 alumnos</option>
+          <option value="91_300">Entre 91 y 300 alumnos</option>
+          <option value="301_600">Entre 301 y 600 alumnos</option>
+          <option value="601_900">Entre 601 y 900 alumnos</option>
+          <option value="mas_900">Más de 900 alumnos</option>
+        </select>
+      </div>
+      <div class="form-group"><label>Tu Nombre y Apellido</label><input type="text" id="nombre" required placeholder="Tu nombre completo"></div>
+      <div class="form-group"><label>Correo Electrónico de Contacto</label><input type="email" id="correo" required placeholder="ejemplo@tucolegio.com"></div>
+      <div class="form-group"><label>Teléfono Celular (WhatsApp)</label><input type="tel" id="telefono" required placeholder="+58 412 1234567"></div>
+      <div class="form-group"><label>Tu Cargo en la Institución</label><input type="text" id="cargo" required placeholder="Ej. Director Académico"></div>
+      <button type="submit" id="btn_enviar">Reservar mi acceso gratuito ➔</button>
+    </form>
+    <div class="powered">Powered by <b>Akdemia</b></div>
+  </div>
+  <script>
+    /**
+     * ==============================================================
+     * Core Functionality - FrontEnd Client
+     * Desarrollado por: Juan Cortez (JC)
+     * ==============================================================
+     */
+    const form = document.getElementById('mi_formulario');
+    const igBanner = document.getElementById('ig_banner');
+    const btnEnviar = document.getElementById('btn_enviar');
+    
+    // Detección de navegadores In-App (Instagram/FB) para evitar bloqueos de descarga - Implementado por Juan Cortez
+    const ua = navigator.userAgent || navigator.vendor || window.opera;
+    if ((ua.indexOf("Instagram") > -1) || (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1)) { igBanner.style.display = 'block'; }
+    
+    document.getElementById('btn_copiar').addEventListener('click', function() {
+      navigator.clipboard.writeText(window.location.href);
+      this.innerText = '✅ ¡Enlace copiado! Ábrelo en Safari/Chrome';
+      this.style.background = '#059669'; this.style.color = '#ffffff';
+    });
+    
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      btnEnviar.disabled = true; btnEnviar.style.opacity = '0.8'; btnEnviar.innerText = 'Procesando tu reserva...';
+      
+      const data = {
+        colegio: document.getElementById('colegio').value,
+        ubicacion: document.getElementById('ubicacion').value,
+        rango_alumnos: document.getElementById('rango_alumnos').value,
+        nombre: document.getElementById('nombre').value,
+        correo: document.getElementById('correo').value,
+        telefono: document.getElementById('telefono').value,
+        cargo: document.getElementById('cargo').value
+      };
+      
+      // Llamada asíncrona a la API de Google Apps Script - Lógica por JC
+      google.script.run
+        .withSuccessHandler((res) => {
+          if (res.status === 'success') {
+            form.style.display = 'none'; document.getElementById('cabecera_form').style.display = 'none'; igBanner.style.display = 'none'; document.getElementById('mensaje_exito').style.display = 'block';
+          } else {
+            document.getElementById('mensaje_error').style.display = 'block'; document.getElementById('mensaje_error').innerText = res.message; resetBtn();
+          }
+        })
+        .withFailureHandler(() => {
+          document.getElementById('mensaje_error').style.display = 'block'; document.getElementById('mensaje_error').innerText = 'Ocurrió un error en nuestros servidores. Por favor, intenta de nuevo.'; resetBtn();
+        }).processForm(data);
+    });
+    
+    function resetBtn() { btnEnviar.disabled = false; btnEnviar.style.opacity = '1'; btnEnviar.innerText = 'Reservar mi acceso gratuito ➔'; }
+  </script>
+</body>
+</html>
