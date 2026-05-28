@@ -1,6 +1,6 @@
-#Juan | Full-Stack Developer & Automation Expert ⚡️
+#Juan | Técnico en Telemática / Full-Stack Developer & Automation Expert ⚡️
 
-Desarrollador de 18 años basado en Venezuela, enfocado en optimizar procesos empresariales mediante software y automatización.
+Desarrollador de 18 años en Venezuela;
 
 🚀 Proyectos Destacados
 
