@@ -15,7 +15,7 @@ Tech Stack: Google Apps Script (GAS), JavaScript, Google Sheets API.
 Logro: Eliminación de procesos manuales mediante la integración de formularios web con bases de datos en tiempo real y alertas automáticas por email.
 
  🛠 Habilidades Técnicas
-Lenguajes: JavaScript (Experto), Google Apps Script, HTML, CSS.
+Lenguajes: JavaScript casi nivel experto, Google Apps Script, HTML, CSS.
 Frameworks/Tools: Tailwind CSS, Chart.js, SweetAlert2, Git/GitHub.
 Especialidad:** Automatización de flujos de trabajo (Workflow Automation) y Dashboards operativos.
 
